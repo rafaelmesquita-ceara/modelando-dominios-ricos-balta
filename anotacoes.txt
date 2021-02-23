@@ -1,0 +1,7 @@
+Linguagem Oblíqua
+  -> Linguagem única
+  -> Programador e cliente falando a mesma linguagem
+  -> Sempre que possível, programar em ingles
+  -> Não trabalhar com portugles (ClienteRepository?)
+  -> Trazer para o domínio a linguagem do cliente (entidade Bananada)
+  
