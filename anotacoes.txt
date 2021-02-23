@@ -4,4 +4,19 @@ Linguagem Oblíqua
   -> Sempre que possível, programar em ingles
   -> Não trabalhar com portugles (ClienteRepository?)
   -> Trazer para o domínio a linguagem do cliente (entidade Bananada)
-  
+
+
+Domínios Ricos vs Domínios Anemicos
+  -> Domínios Anemicos
+    -> Domínio anemico não possui regra de negócio na entidade (entidade simples)
+    -> Data Driven Design
+    -> Reflete o que está no seu banco
+    -> Store procedures
+    -> Não é possível testar store procedures
+  -> Domínios Ricos
+    -> Regras de negócio das entidades na aplicação
+    -> Regras de negócio usando POO
+    -> Melhor dos lados
+    -> Realizar testes
+
+dotnet new mstest => Cria solução para testes
