@@ -20,3 +20,15 @@ Domínios Ricos vs Domínios Anemicos
     -> Realizar testes
 
 dotnet new mstest => Cria solução para testes
+dotnet sln add PaymentContext.Domain/PaymentContext.Domain.csproj
+dotnet sln add PaymentContext.Shared/PaymentContext.Shared.csproj
+dotnet sln add PaymentContext.Tests/PaymentContext.Tests.csproj
+dotnet restore
+dotnet build => Compila os projetos como um todo
+
+PaymentContext.Domain -> Domínio rico da aplicação
+PaymentContext.Shared -> Items que possam ser compartilhados
+PaymentContext.Tests -> Testes
+
+dotnet add reference ../PaymentContext.Domain/PaymentContext.Domain.csproj -> Adicionar no projeto Test
+dotnet add reference ../PaymentContext.Shared/PaymentContext.Shared.csproj -> Adicionar no projeto Test e Domain
