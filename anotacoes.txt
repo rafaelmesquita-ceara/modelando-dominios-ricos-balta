@@ -1,4 +1,4 @@
-Linguagem Oblíqua
+Linguagem Ubíqua
   -> Linguagem única
   -> Programador e cliente falando a mesma linguagem
   -> Sempre que possível, programar em ingles
