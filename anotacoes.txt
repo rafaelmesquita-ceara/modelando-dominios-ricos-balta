@@ -32,3 +32,7 @@ PaymentContext.Tests -> Testes
 
 dotnet add reference ../PaymentContext.Domain/PaymentContext.Domain.csproj -> Adicionar no projeto Test
 dotnet add reference ../PaymentContext.Shared/PaymentContext.Shared.csproj -> Adicionar no projeto Test e Domain
+
+ValueObjects:
+  Tipos que compõem uma entidade
+  => A ideia é que se utilize menos tipos primitivos para começar a utilizar tipos complexos para alguns campos que se repetem entre entidades, a fim de facilitar os testes e validações
