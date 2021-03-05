@@ -17,7 +17,7 @@ namespace PaymentContext.Domain.ValueObjects
 
             AddNotifications(new Contract<Address>()
                 .Requires()
-                .IsNotBetween(Street.Length, 3, 40, "Address.FirstName", "A rua deve conter entre 3 e 40 caracteres")
+                .IsBetween(Street.Length, 3, 40, "Address.FirstName", "A rua deve conter entre 3 e 40 caracteres")
             );
         }
 

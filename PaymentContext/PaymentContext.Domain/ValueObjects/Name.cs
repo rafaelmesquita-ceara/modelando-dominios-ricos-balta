@@ -12,8 +12,8 @@ namespace PaymentContext.Domain.ValueObjects
 
             AddNotifications(new Contract<Name>()
                 .Requires()
-                .IsNotBetween(FirstName.Length, 3, 40, "Name.FirstName", "O nome deve conter entre 3 e 40 caracteres")
-                .IsNotBetween(LastName.Length, 3, 40, "Name.LastName", "O sobrenome deve conter entre 3 e 40 caracteres")                
+                .IsBetween(FirstName.Length, 3, 40, "Name.FirstName", "O nome deve conter entre 3 e 40 caracteres")
+                .IsBetween(LastName.Length, 3, 40, "Name.LastName", "O sobrenome deve conter entre 3 e 40 caracteres")                
             );
         }
 
